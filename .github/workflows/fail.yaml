@@ -1,10 +1,10 @@
-name:  Fail Pull Request
-on:
-  - push
-  - pull_request
-jobs:
-  fail-pr
-    runs-on: ubuntu-latest
-    steps:
-      - name: Set failure status
-        run: exit 1
+# name:  Fail Pull Request
+# on:
+#   - push
+#   - pull_request
+# jobs:
+#   fail-pr
+#     runs-on: buntu-latest
+#     steps:
+#       - name: Set failure status
+#         run: exit 1
